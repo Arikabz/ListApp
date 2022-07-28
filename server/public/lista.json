@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "userID":"AG1",
+        "item": "Cereal"
+    },
+    {
+        "id": 2,
+        "userID":"MZ2",
+        "item": "Yogurt"
+    },
+    {
+        "id": 3,
+        "userID":"AG1",
+        "item": "Galletas"
+    },
+    {
+        "id": 4,
+        "userID":"AG1",
+        "item": "Chobani"
+    },
+    {
+        "id": 5,
+        "userID":"MZ1",
+        "item": "Melon"
+    },
+    {
+        "id": 6,
+        "userID":"MZ2",
+        "item": "Cereal"
+    },
+    {
+        "id": 7,
+        "userID":"AG1",
+        "item": "Queso"
+    }
+]
