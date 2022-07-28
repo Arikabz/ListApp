@@ -31,7 +31,7 @@ MongoClient.connect(connectionString, {})
         })
         app.post('/addItem', (req, res) => {
   1             //res.sendFile(__dirname + '/index.html');
-                listCollection.insertOne(req.body)
+            listCollection.insertOne({id: nextId(), item: req.body.item, userID: req.body.userID})
                 .then(result => {
                     res.redirect('/')
                     console.log(result)
