@@ -2,6 +2,12 @@ import React from "react"
 import axios from "axios"
 import "./styles.css"
 
+const Button = (props) =>{
+    return(
+        <button onClick={props.action}>{props.name}</button>
+    )
+}
+
 export default class App extends React.Component{
     state = {
         lista: [],
