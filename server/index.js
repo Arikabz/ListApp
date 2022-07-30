@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 require('dotenv').config()
 const path = require('path')
 const connectionString = process.env.connectionString
-const PORT = 3002
+const PORT = 3003
 
 let db,
     dbName = 'listAppdb',
@@ -51,6 +51,7 @@ app.get('/', (req,res) => {
 })
 
 app.get('/getList', (req,res) => {
+    console.log('getlist')
     const id = req.body.listID
     const listItems = listCollection.find(list => list.listID == id).toArray()
 })
